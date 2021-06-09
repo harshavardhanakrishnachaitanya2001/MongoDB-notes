@@ -73,4 +73,8 @@ db.<collectionName>.find().pretty().limit(<numberOfItemsToShow>)
 db.<collectionName>.find().count()
 ```
 
-### 
+### Count the number of documents with specific key value in the collection
+```javascript
+db.<collectionName>.find({'key':value}).count()
+```
+
