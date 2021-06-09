@@ -62,3 +62,10 @@ pretty() is used to display documents in a readable way
 ```javascript
 db.<collectionName>.find({'key':value})
 ```
+
+### Limit the number of documents shown in the terminal
+```javascript
+db.<collectionName>.find().pretty().limit(<numberOfItemsToShow>)
+```
+
+###
