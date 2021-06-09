@@ -42,12 +42,19 @@ db.<collectionName>.insert({
 })
 ```
 
-### Insert many rows
+### Insert many documents
 ```javascript
 db.<collectionName>.insertMany([
 {'key1':value1,'key2':value2,...},
 {'key1':value1,...},
 {'key1':value1,...},...
 ])
+```
+
+### To display all documents in a collection
+```javascript
+db.<collectionName>.find().pretty()
+
+pretty() is used to display documents in a readable way
 ```
 
