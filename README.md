@@ -58,3 +58,7 @@ db.<collectionName>.find().pretty()
 pretty() is used to display documents in a readable way
 ```
 
+### Search for specific key value pair in a database
+```javascript
+db.<collectionName>.find({'key':value})
+```
