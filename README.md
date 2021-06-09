@@ -34,7 +34,13 @@ db.createCollection('<nameOfCollection>')
 db.<collectionName>.drop()
 ```
 
-### Insert document in collection
+### Insert single document in collection
 ```javascript
-db.<collectionName>.insert({'key':value})
+db.<collectionName>.insert({'key1':value1,'key2':value2,...})
 ```
+
+### Insert many rows
+```javascript
+db.<collectionName>.insertMany([{'key1':value1,'key2':value2,...},{'key1':value1,...},{'key1':value1,...},...])
+```
+
