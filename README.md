@@ -36,5 +36,5 @@ db.<collectionName>.drop()
 
 ### Insert document in collection
 ```javascript
-db.<collectionName>.insert({key:value})
+db.<collectionName>.insert({'key':value})
 ```
